@@ -41,17 +41,16 @@ export default function ContactForm() {
     }
 
     try {
-      // Send email using EmailJS
+      // Send email using EmailJS with template parameters matching your EmailJS template
       const response = await emailjs.send(
         EMAILJS_SERVICE_ID,
         EMAILJS_TEMPLATE_ID,
         {
-          from_name: name,
-          from_email: email,
-          subject: subject,
-          message: message,
-          to_name: "Akshay Krishnan",
-          reply_to: email,
+          title: `Name: ${name}`,
+          name: `Email: ${email}`,
+          time: `Subject: ${subject}`,
+          email: email,        // Keep this as is for reply functionality
+          message: `Message:\n${message}`
         }
       )
 
