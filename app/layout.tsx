@@ -14,7 +14,21 @@ const ibmPlexSans = IBM_Plex_Sans({
 export const metadata = {
   title: "Akshay Krishnan | Product Designer",
   description: "Portfolio of Akshay Krishnan, Product Designer specializing in UI/UX design",
-    generator: 'v0.dev'
+  generator: 'v0.dev',
+  icons: {
+    icon: [
+      {
+        media: '(prefers-color-scheme: light)',
+        url: '/light.png',
+        href: '/light.png',
+      },
+      {
+        media: '(prefers-color-scheme: dark)',
+        url: '/Dark.png',
+        href: '/Dark.png',
+      }
+    ]
+  },
 }
 
 export default function RootLayout({
