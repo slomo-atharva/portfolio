@@ -15,22 +15,21 @@ export async function submitContactForm(formData: FormData) {
   }
 
   try {
-    // Send email using the Fetch API
-    const response = await fetch("https://formsubmit.co/ajax/krishnan.akshay.b@gmail.com", {
+    // Send email using FormSubmit's standard endpoint
+    const response = await fetch("https://formsubmit.co/akfskk2001@gmail.com", {
       method: "POST",
       headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json",
+        "Content-Type": "application/x-www-form-urlencoded",
       },
-      body: JSON.stringify({
+      body: new URLSearchParams({
         name,
         email,
         subject,
         message,
         _subject: `Portfolio Contact: ${subject}`,
-        _template: "table", // Use a nice table layout for the email
-        _captcha: "false", // Disable captcha for better UX
-      }),
+        _template: "table",
+        _captcha: "false",
+      }).toString(),
     })
 
     if (!response.ok) {
