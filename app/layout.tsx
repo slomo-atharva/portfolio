@@ -2,6 +2,7 @@ import type React from "react"
 import "./globals.css"
 import { IBM_Plex_Sans } from "next/font/google"
 import { ThemeProvider } from "@/components/theme-provider"
+import { Analytics } from '@vercel/analytics/react'
 import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
 
@@ -43,6 +44,7 @@ export default function RootLayout({
           <Navbar />
           {children}
           <Footer />
+          <Analytics />
         </ThemeProvider>
       </body>
     </html>
