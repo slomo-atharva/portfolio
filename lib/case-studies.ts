@@ -36,6 +36,83 @@ export interface CaseStudy {
 export const caseStudies: CaseStudy[] = [
   {
     id: 1,
+    slug: "strategy-zero-dashboard",
+    title: "Redesigning the Heart of Strategy Zero: A Dashboard Revolution",
+    category: "UX/UI Design",
+    summary: "Transforming a 10-year-old enterprise project management platform from a client retention liability into a competitive advantage through user-centered dashboard redesign.",
+    timeline: "6 months",
+    role: "Lead UX/UI Designer",
+    deliverables: "UX Research, Information Architecture, UI Design, User Testing, Design System",
+    featuredImage: "/images/placeholder.svg",
+    overview: "Strategy Zero is a comprehensive enterprise project management platform serving major clients including Dubai Holdings, Unity Water, and the UAE Government. The platform had experienced significant client attrition, dropping from 13 major clients to just 5-6, primarily due to a legacy dashboard that was driving users away. This project focused on redesigning the core dashboard experience to improve user engagement, reduce cognitive load, and ultimately retain clients by making the platform more intuitive and efficient.",
+    challenge: "The existing 10-year-old dashboard was causing significant user frustration and client churn. Key issues included: client retention dropping from 13 to 5-6 major enterprises, users struggling to find essential project information without navigating through multiple workspaces, confusing action categories ('Actions' vs 'Assigned to me'), zero-value content taking up prime dashboard real estate, and inconsistent typography creating cognitive overload. The challenge was to transform this legacy liability into a competitive advantage while maintaining the platform's powerful functionality.",
+    challengeImage: "/images/placeholder.svg",
+    process: [
+      {
+        title: "Discovery & Analysis",
+        description: "Before jumping into UI fixes, we partnered with business consultants who regularly speak with clients to understand what actually matters. We analyzed user behavior patterns across all client organizations, identified core workflows for Project Managers (PM) and Portfolio Management Office (PMO) users, created information architecture focused only on high-value features, and developed user personas based on real usage data rather than assumptions.",
+        image: "/images/placeholder.svg",
+      },
+      {
+        title: "Strategic Design Shift",
+        description: "We made a crucial decision to focus on projects, not features. Most PMs handle 1-2 projects normally (3-4 in worst cases), so we designed around that reality. This project-centric approach led to innovations like clean project selection dropdowns, visual timeline views showing deliverables and risks, intelligent activity logs with real-time feeds, and simplified action panels with clear status-based organization.",
+        image: "/images/placeholder.svg",
+      },
+      {
+        title: "PM Dashboard Redesign",
+        description: "The PM dashboard transformation included: project selection at the top with contextual updates, visual timeline view for instant project overview, intelligent activity log with clickable activities, Project Status Report (PSR) trend visualization, simplified actions panel with status-based organization, and curated essential workspaces with quick access search.",
+        image: "/images/placeholder.svg",
+      },
+      {
+        title: "PMO Dashboard Enhancement",
+        description: "For PMOs handling multiple projects, we designed for scale and oversight with: workspace hierarchy for daily operations and configuration management, centralized reporting hub with published reports and custom templates, Kanban action management with visual priority boards, and smart watchlists for critical dashboards and customizable monitoring.",
+        image: "/images/placeholder.svg",
+      },
+    ],
+    solution: "The redesigned dashboard system features two distinct but complementary interfaces: a project-centric PM dashboard and a portfolio-level PMO dashboard. The PM dashboard focuses on individual project management with contextual information display, visual timelines, intelligent activity tracking, and streamlined action management. The PMO dashboard provides portfolio-level intelligence with workspace hierarchy, centralized reporting, Kanban action management, and smart watchlists. Both dashboards follow consistent design principles of context over content, clear visual hierarchy, reduced cognitive load, and optimized speed of completion.",
+    solutionImages: [
+      "/images/placeholder.svg",
+      "/images/placeholder.svg",
+      "/images/placeholder.svg",
+      "/images/placeholder.svg",
+    ],
+    results: [
+      {
+        stat: "62%",
+        title: "Faster Task Completion",
+        description: "Average task completion time reduced from 8.5 minutes to 3.2 minutes, significantly improving user efficiency and productivity.",
+      },
+      {
+        stat: "73%",
+        title: "Reduced Navigation",
+        description: "Dashboard navigation clicks reduced from 12-15 clicks to 3-5 clicks, streamlining user workflows and reducing cognitive load.",
+      },
+      {
+        stat: "75%",
+        title: "User Satisfaction",
+        description: "User satisfaction score increased from 2.4/5 to 4.2/5, indicating strong positive reception of the redesigned interface.",
+      },
+      {
+        stat: "90%",
+        title: "Faster Information Access",
+        description: "Time to find project information reduced from 5+ minutes to 30 seconds, dramatically improving user experience and decision-making speed.",
+      },
+      {
+        stat: "80%",
+        title: "PSR Creation Speed",
+        description: "Project Status Report creation time reduced from 15+ minutes to under 3 minutes, enabling more frequent and timely reporting.",
+      },
+    ],
+    testimonial: {
+      quote: "The new dashboard feels like we're using a completely different product. Everything I need is right there, and it actually makes sense now.",
+      author: "PMO Director",
+      role: "Major Government Client",
+    },
+    conclusion: "This dashboard redesign represents a fundamental shift in how we approach enterprise software design at Strategy Zero. By putting user needs first and backing decisions with real data, we've created dashboards that don't just look better—they work better. The redesign has led to increased feature adoption, better project outcomes through faster information access, improved client satisfaction indicators, and a clear design system for future features. The key takeaway is that sometimes the best innovation isn't adding more features—it's removing the friction that prevents users from achieving their goals. This project transformed a legacy liability into a competitive advantage and set the foundation for continued platform improvement.",
+    link: "https://example.com/strategy-zero",
+  },
+  {
+    id: 2,
     slug: "strategize",
     title: "Strategize",
     category: "UX/UI Design",
@@ -113,7 +190,7 @@ export const caseStudies: CaseStudy[] = [
     link: "https://example.com/strategize",
   },
   {
-    id: 2,
+    id: 3,
     slug: "prosys",
     title: "ProSys",
     category: "AI Chatbot",
@@ -182,7 +259,7 @@ export const caseStudies: CaseStudy[] = [
     link: "https://example.com/prosys",
   },
   {
-    id: 3,
+    id: 4,
     slug: "propshare",
     title: "PropShare",
     category: "Real Estate Investment Platform",
@@ -253,7 +330,7 @@ export const caseStudies: CaseStudy[] = [
     link: "https://example.com/propshare",
   },
   {
-    id: 4,
+    id: 5,
     slug: "designgram",
     title: "Designgram",
     category: "iOS Social Media App",
@@ -262,7 +339,7 @@ export const caseStudies: CaseStudy[] = [
     featuredImage: "/images/designgram.png",
   },
   {
-    id: 5,
+    id: 6,
     slug: "parkease",
     title: "Parkease",
     category: "iOS Parking App",
@@ -271,7 +348,7 @@ export const caseStudies: CaseStudy[] = [
     featuredImage: "/images/parkease.png",
   },
   {
-    id: 6,
+    id: 7,
     slug: "flyoverind",
     title: "Flyoverind",
     category: "iOS Education App",
