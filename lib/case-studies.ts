@@ -43,15 +43,15 @@ export const caseStudies: CaseStudy[] = [
     timeline: "6 months",
     role: "Lead UX/UI Designer",
     deliverables: "UX Research, Information Architecture, UI Design, User Testing, Design System",
-    featuredImage: "/images/placeholder.svg",
+    featuredImage: "/images/stratcore-thumbnail.png",
     overview: "Strategy Zero is a comprehensive enterprise project management platform serving major clients including Dubai Holdings, Unity Water, and the UAE Government. The platform had experienced significant client attrition, dropping from 13 major clients to just 5-6, primarily due to a legacy dashboard that was driving users away. This project focused on redesigning the core dashboard experience to improve user engagement, reduce cognitive load, and ultimately retain clients by making the platform more intuitive and efficient.",
     challenge: "The existing 10-year-old dashboard was causing significant user frustration and client churn. Key issues included: client retention dropping from 13 to 5-6 major enterprises, users struggling to find essential project information without navigating through multiple workspaces, confusing action categories ('Actions' vs 'Assigned to me'), zero-value content taking up prime dashboard real estate, and inconsistent typography creating cognitive overload. The challenge was to transform this legacy liability into a competitive advantage while maintaining the platform's powerful functionality.",
-    challengeImage: "/images/placeholder.svg",
+    challengeImage: "/images/stratcore-thumbnail.png",
     process: [
       {
         title: "Discovery & Analysis",
         description: "Before jumping into UI fixes, we partnered with business consultants who regularly speak with clients to understand what actually matters. We analyzed user behavior patterns across all client organizations, identified core workflows for Project Managers (PM) and Portfolio Management Office (PMO) users, created information architecture focused only on high-value features, and developed user personas based on real usage data rather than assumptions.",
-        image: "/images/placeholder.svg",
+        image: "/images/stratcore-thumbnail.png",
       },
       {
         title: "Strategic Design Shift",
@@ -71,7 +71,7 @@ export const caseStudies: CaseStudy[] = [
     ],
     solution: "The redesigned dashboard system features two distinct but complementary interfaces: a project-centric PM dashboard and a portfolio-level PMO dashboard. The PM dashboard focuses on individual project management with contextual information display, visual timelines, intelligent activity tracking, and streamlined action management. The PMO dashboard provides portfolio-level intelligence with workspace hierarchy, centralized reporting, Kanban action management, and smart watchlists. Both dashboards follow consistent design principles of context over content, clear visual hierarchy, reduced cognitive load, and optimized speed of completion.",
     solutionImages: [
-      "/images/placeholder.svg",
+      "/images/stratcore-thumbnail.png",
       "/images/placeholder.svg",
       "/images/placeholder.svg",
       "/images/placeholder.svg",
