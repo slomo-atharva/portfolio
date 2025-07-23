@@ -21,7 +21,9 @@ export function generateStaticParams() {
     }))
 }
 
-export default async function CaseStudyPage({ params }: CaseStudyPageProps) {
+export default async function CaseStudyPage(props: CaseStudyPageProps) {
+  // Await params if it's a Promise (Next.js 13+/15 dynamic route API)
+  const params = props.params instanceof Promise ? await props.params : props.params;
   const caseStudy = caseStudies.find((study) => study.slug === params.slug)
 
   if (!caseStudy) {
